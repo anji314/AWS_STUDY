@@ -122,7 +122,7 @@ testCompile group: 'software.amazon.awssdk', name: 's3', version: '2.13.66'
 
 ### [4] Controller 생성
 
-(1) 네비게이션
+(1) 네비게이션 <br>
 <img src=".\typora-user-images\image-20200804174650880.png" alt="image-20200804174650880"  />
 
 <br>
@@ -165,30 +165,29 @@ testCompile group: 'software.amazon.awssdk', name: 's3', version: '2.13.66'
 
 (3) 실습
 
-- **folderName="(빈칸)"**
-  => 해당 버킷의 모든 객체가 보여진다.
+- **folderName="(빈칸)"**<br>
+  => 해당 버킷의 모든 객체가 보여진다.<br>
   <img src=".\typora-user-images\image-20200804175123444.png" alt="image-20200804175123444" style="zoom:80%;" />
 
 <br>
 
-- **folderName="폴더이름"**
-  => 지정된 폴더부터 하위 객체들이 보여진다.
-  => ex) folderName="first-folder"
+- **folderName="폴더이름"** <br>
+  => 지정된 폴더부터 하위 객체들이 보여진다. <br>
+  => ex) folderName="first-folder" <br>
   <img src=".\typora-user-images\image-20200804175303543.png" alt="image-20200804175303543" style="zoom:80%;" />
 
 
 <br>
 
 
-- **folderName="폴더이름/파일이름"**
-  => 폴더이름/파일이름 으로 지정시 해당객체 하나만 불러와진다.
-  => ex) folderName="first-folder/33.PNG"
+- **folderName="폴더이름/파일이름"** <br>
+  => 폴더이름/파일이름 으로 지정시 해당객체 하나만 불러와진다. <br>
+  => ex) folderName="first-folder/33.PNG" <br>
   <img src=".\typora-user-images\image-20200804175500500.png" alt="image-20200804175500500" style="zoom:80%;" />
 
 <br>
 
-- **folderName="파일 이름"**
-
+- **folderName="파일 이름"** <br>
   => 반환 되는 객체 결과 없음
 <br>
 
