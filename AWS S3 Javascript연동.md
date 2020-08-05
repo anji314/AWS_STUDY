@@ -1,4 +1,5 @@
 ## AWS S3 Javascript연동
+<br>
 
 ### [실습한 내용]
 
@@ -8,7 +9,7 @@
 
 
 
-
+<br><br>
 
 ### [실습 환경]
 
@@ -26,7 +27,7 @@
   - [API Reference](https://docs.aws.amazon.com/ko_kr/AWSJavaScriptSDK/latest/index.html)
 
 
-
+<br>
 
 
 ### [1] S3에 Bucket 생성
@@ -36,11 +37,11 @@
 1. 버킷을 생성한다.
 
    <img src=".\typora-user-images\image-20200730174655494.png" alt="image-20200730174655494" style="zoom: 80%;" />
-
+<br>
 2. 버킷의 권한을 설정하여 외부에서 접근을 허가하게 바꾼다.
 
 <img src=".\typora-user-images\image-20200730174802538.png" alt="image-20200730174802538" style="zoom:80%;" />
-
+<br>
 3. CORS 구성 수정
 
    ```xml
@@ -59,7 +60,7 @@
    </CORSConfiguration>
    ```
 
-   
+   <br>
 
 4. 객체 등록
 
@@ -73,7 +74,7 @@
 
 
 
-
+<br>
 
 
 
@@ -91,7 +92,7 @@
    });
    ```
 
-   
+ <br>  
 
 
 
@@ -126,7 +127,7 @@
 ```
 
 
-
+<br>
 2. app.js
 
 ```javascript
@@ -262,13 +263,13 @@ function listAlbums() {
 
 ```
 
-
+<br>
 
 3. 실행 화면
    <img src=".\typora-user-images\image-20200730181033872.png" alt="image-20200730181033872" style="zoom: 67%;" />
 
 
-
+<br>
 4. console
    <img src=".\typora-user-images\image-20200730181151026.png" alt="image-20200730181151026" style="zoom:80%;" />
 
