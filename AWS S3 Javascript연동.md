@@ -82,8 +82,7 @@
 
 1.  자격 증명 풀 생성
 
-   <img src=".\typora-user-images\image-20200730180517620.png" alt="image-20200730180517620" style="zoom: 67%;" />
-
+  
    ```javascript
    // Amazon Cognito 인증 공급자를 초기화합니다
    AWS.config.region = 'us-east-1'; // 리전
